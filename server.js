@@ -33,7 +33,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:4001",
+        url: "https://intense-retreat-74340.herokuapp.com/",
       },
     ],
   },
