@@ -103,6 +103,7 @@ const uploadOptions = multer({ storage: storage });
  */
 router.get(`/`, async (req, res) => {
   const productList = await Product.find().catch((err) => {
+    console.log(err);
     return res.status(400).json({
       success: false,
       message: "Internal Server Error",
